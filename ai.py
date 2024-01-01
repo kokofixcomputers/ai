@@ -3,7 +3,7 @@ from huggingface_hub import hf_hub_download
 import os
 
 # Define the model name
-model_name = "microsoft/DialoGPT-medium"
+model_name = "mistralai/Mistral-7B-v0.1"
 
 # Download the model to a specific path
 cache_dir = "./your/cache/path"  # Specify your desired cache path
